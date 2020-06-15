@@ -1,0 +1,420 @@
+
+body{
+	margin:0px;
+	padding: 0px;
+	font-family: Century Gothic;
+}
+/*Header Section start*/
+header{
+	background-color:#121b2a;
+}
+
+/*Header Content start*/
+.header_wrap{
+	overflow:hidden;
+	margin:0 auto;
+	width:80%;
+	}
+
+/*Header Logo start*/
+.logo{
+	float:left;
+	width:18%;
+}
+.logo img{
+	width:100%;
+	max-width:150px;
+	padding:6% 0;
+}
+.login{
+	float:right;
+	width:60%;
+}
+.login ul{
+	margin:0px;
+	float:right;
+	display:inline-flex;
+}
+.login ul a li {
+	list-style:none;
+	display:inline-block;
+	padding: 8px 15px;
+	background-color:#0078bd;
+}
+.login ul a:hover li{
+	background-color:white;
+	color:black;
+}
+/*Header Logo End*/
+/*Header Menu start*/
+.menu{
+	float:right;
+	margin-top:1%;
+	width:78%;
+}
+.menu ul{
+	text-align:right;
+	padding:12px 0px;
+	margin:0px;
+}
+.menu ul li{
+	list-style:none;
+	display:inline-block;
+	padding: 0px 2%;;
+}
+.menu ul li:last-child{
+	padding-right:0;
+}
+
+.login ul a, .menu ul li a{
+	text-decoration: none;
+	font-size:1.5vw;
+	color:white;
+	text-transform:uppercase;
+}
+.menu ul li a:hover{
+	color:#006caa;
+}
+/*Header Menu End*/
+/*Header Content End*/
+/*Header Section End*/
+
+/*Main Section-1 start*/
+main{
+	
+}
+
+.section1{
+	position:relative;
+} 
+.section1_background{
+}
+
+.section1_background img {
+	width:100%;
+	display:block;
+}
+
+.section1_content{
+	position:absolute;
+	top:40%;
+	margin-left:10%;
+	color:white;
+}
+
+.section1_content p:nth-child(1){
+	margin: 0px;
+	font-size:3vw;
+}
+.section1_content p:nth-child(2){
+	margin: 0px;
+	font-size:3vw;
+	font-weight: bold;
+	color:#0075ba;
+}
+.section1_content p:nth-child(3){
+	margin: 0px;
+	font-size:1.1vw;
+	line-height:2vw;
+}
+.section1_content p:nth-child(4){
+	background-color:white;
+	width:50%;
+	padding: 5px 0px 5px 15px;
+	border:1px solid white;
+	border-radius:5px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:2vw;
+}
+.section1_content p:nth-child(4) a{
+	text-decoration:none;
+	color:#5a5a5a;
+}
+.section1_content p:nth-child(4) a:hover{
+	color:#006caa;
+}
+
+/*Main Section-1 End*/
+
+/*Main Section-2 Start*/
+.section2{
+	position: relative;
+}
+.section2_background{}
+.section2_background img {
+	width:100%;
+	display:block;
+}
+.section2_content{
+	margin: 0 7% 0 10%;
+	position: absolute;
+	top: 15%;
+	font-size:1.1vw;
+	color:white;
+}
+.section2_content p{
+	padding:0px;
+	margin:0px;
+}
+.section2_col1{
+	width: 31%;
+	float: left;
+	box-sizing:border-box;
+	padding-right:2%;
+	text-align:justify;
+}
+.section2_col1_head,
+.section2_col2_head,
+.section2_col3_head{
+	overflow:hidden;
+}
+.section2_col1_head{
+	margin-bottom:2%;
+}
+.section2_col1_head img,
+.section2_col2_head img,
+.section2_col3_head img{
+	width:20%;
+	float:left;
+	margin-right:5%;
+}
+.section2_col1_head img{
+	width:25%;
+}
+.section2_col1_head div,
+.section2_col2_head div,
+.section2_col3_head div{
+	float:left;
+	margin-top:2%;
+	margin-bottom: 5%;
+}
+.section2_col1_head div p:nth-child(1),
+.section2_col2_head div p:nth-child(1),
+.section2_col3_head div p:nth-child(1){
+	font-size:2vw;
+}
+.section2_col1_head div p:nth-child(2),
+.section2_col2_head div p:nth-child(2),
+.section2_col3_head div p:nth-child(2){
+	font-size:2vw;
+	font-weight:bold;
+	color:#0075ba;
+	margin-bottom:10%;
+}
+.section2_col1 > p{
+	line-height:2vw;
+}
+
+.section2_col2{
+	width: 37%;
+	float: left;
+	box-sizing:border-box;
+	padding-left:3%;
+	padding-right:3%;
+	text-align:justify;
+}
+
+.section2_col2 > p{
+	line-height:2vw;}
+
+.section2_col3{
+	width: 32%;
+	float: left;
+	box-sizing:border-box;
+	padding-left:2%;
+	text-align:justify;
+}
+
+.section2_col3_head div p{
+	display:inline-block;
+	margin-top:17%;
+}
+.section2_col3 > p{
+	line-height:2vw;
+}
+/*Main Section-2 End*/
+
+
+/*Main Section-3 Start*/
+.section3{
+	background-color:black;
+	color:white;
+	overflow:hidden;
+	padding: 0 10%;
+	font-size:1vw;
+}
+.section3 p {
+	padding:0px;
+	margin:0px;
+}
+.section3_col1{
+	width:30%;
+	float:left;
+	box-sizing:border-box;
+	padding: 0 2%;
+}
+.section3_col1_head{
+	margin-top:20%;
+	margin-bottom:8%;
+}
+
+.section3_col1_head p:nth-child(1),
+.section3_col2_head p:nth-child(1){
+	display:inline-block;
+	font-size:1.8vw;
+}
+.section3_col1_head p:nth-child(2),
+.section3_col2_head p:nth-child(2){
+	display:inline-block;
+	font-size:1.8vw;
+	font-weight:bold;
+	color:#0075ba;
+	
+}
+.section3_col1 div:last-child p{
+	margin-bottom:10%;
+}
+
+.section3_col2{
+	width:35%;
+	float:left;
+	box-sizing:border-box;
+	padding: 0 2%;	
+}
+
+.section3_col2_head{
+	background-color:#0c1019;
+	margin-top:11%;
+	margin-bottom:8%;
+	padding: 6%;
+	border-radius:5px;
+}
+
+.section3_col2_head p:nth-child(2){
+	margin-bottom:8%;
+}
+.section3_col2_head blockquote{
+	padding:0px;
+	margin:0px;
+}
+.section3_col2 div:last-child p{
+	padding-left:10%;
+}
+.section3_col3{
+	width:35%;
+	float:left;
+	box-sizing:border-box;
+	padding: 0 2%;
+	margin-top:4%;
+	margin-bottom:3%;
+	overflow:hidden;
+}
+
+.section3_col3 div:first-child{
+	float:left;
+	width:35%;
+	margin-right:10%;
+}
+
+.section3_col3 div:first-child img{
+	width:100%;
+}
+.section3_col3 div:last-child{
+	float:left;
+	width:55%;
+}
+.section3_col3_head{
+	
+}
+.section3_col3_head p:nth-child(1){
+	font-size:1.8vw;
+}
+.section3_col3_head p:nth-child(2){
+	font-size:2.2vw;
+	font-weight:bold;
+	color:#0075ba;
+	margin-bottom:5%;
+}
+.section3_col3_head a{
+	
+}
+.section3_col3_head a img{
+	width:100%;
+}
+
+
+/*Main Section-2 End*/
+
+/*Footer Start*/
+footer{
+	position:relative;
+	font-size:1.1vw;
+	color:white;
+}
+.footer_background img{
+	display:block;
+	width:100%;
+}
+.footer_content{
+	position:absolute;
+	top:15%;
+	width:80%;
+	margin-left:10%;
+}
+.footer_content_menu{}
+.footer_content_menu ul{
+	list-style:none;
+	padding:0 0 1.5% 0;
+}
+.footer_content_menu ul li{
+	float:left;
+	padding:0 0.8%;
+}
+.footer_content_menu ul li:first-child{
+	padding-left:0;
+}
+.footer_content_menu ul li:last-child{
+	padding-right:0;
+}
+.footer_content_menu ul li a{
+	text-decoration:none;
+	color:white;
+}
+.footer_content_menu ul li a:hover{
+	color:#0075ba;
+}
+.footer_content_copyright{}
+/*Footer End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
