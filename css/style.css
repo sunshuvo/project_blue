@@ -40,7 +40,6 @@ header{
 	display:inline-block;
 	padding: 8px 15px;
 	background-color:#0078bd;
-	transition: 0.3s;
 }
 .login ul a:hover li{
 	background-color:white;
@@ -72,6 +71,7 @@ header{
 	font-size:1.5vw;
 	color:white;
 	text-transform:uppercase;
+	transition: 0.5s;
 }
 .menu ul li a:hover{
 	color:#006caa;
@@ -381,41 +381,10 @@ footer{
 .footer_content_menu ul li a{
 	text-decoration:none;
 	color:white;
+	transition: 0.5s;
 }
 .footer_content_menu ul li a:hover{
 	color:#0075ba;
 }
 .footer_content_copyright{}
 /*Footer End*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
