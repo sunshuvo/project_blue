@@ -40,6 +40,7 @@ header{
 	display:inline-block;
 	padding: 8px 15px;
 	background-color:#0078bd;
+	transition: 0.5s;
 }
 .login ul a:hover li{
 	background-color:white;
