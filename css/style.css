@@ -131,6 +131,7 @@ main{
 .section1_content p:nth-child(4) a{
 	text-decoration:none;
 	color:#5a5a5a;
+	transition: 0.5s;
 }
 .section1_content p:nth-child(4) a:hover{
 	color:#006caa;
@@ -338,7 +339,7 @@ main{
 	margin-bottom:5%;
 }
 .section3_col3_head a{
-	
+	transition: 0.5s;
 }
 .section3_col3_head a img{
 	width:100%;
