@@ -40,7 +40,7 @@ header{
 .login ul a li {
 	list-style:none;
 	display:inline-block;
-	padding: 5px 15px;
+	padding: 0.3em 0.7em;
 	background-color:#0078bd;
 }
 .login ul a:hover li{
