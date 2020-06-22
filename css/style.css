@@ -276,6 +276,15 @@ header{
 	margin-bottom:8%;
 	padding: 6%;
 	border-radius:5px;
+	position:relative;
+}
+.section3_col2_head:after{
+	content: "";
+	position:absolute;
+	top:100%;
+	left:60%;
+	border-top: 1.8em solid #0c1019;
+	border-right: 6em solid transparent;
 }
 
 .section3_col2_head p:nth-child(2){
