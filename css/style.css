@@ -275,7 +275,7 @@ header{
 	margin-top:11%;
 	margin-bottom:8%;
 	padding: 6%;
-	border-radius:5px;
+	border-radius:0.5em;
 	position:relative;
 }
 .section3_col2_head:after{
