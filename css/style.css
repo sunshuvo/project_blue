@@ -3,6 +3,7 @@ body{
 	margin:0px;
 	padding: 0px;
 	font-family: Century Gothic;
+	color:white;
 }
 /*Header Section start*/
 header{
@@ -10,7 +11,7 @@ header{
 }
 
 /*Header Content start*/
-.header_wrap{
+.wrap{
 	overflow:hidden;
 	margin:0 auto;
 	width:80%;
@@ -35,12 +36,13 @@ header{
 	float:right;
 	display:inline-flex;
 }
+.login ul a{
+}
 .login ul a li {
 	list-style:none;
 	display:inline-block;
-	padding: 8px 15px;
+	padding: 5px 15px;
 	background-color:#0078bd;
-	transition: 0.5s;
 }
 .login ul a:hover li{
 	background-color:white;
@@ -69,10 +71,9 @@ header{
 
 .login ul a, .menu ul li a{
 	text-decoration: none;
-	font-size:1.5vw;
 	color:white;
+	font-size:1.5vw;
 	text-transform:uppercase;
-	transition: 0.5s;
 }
 .menu ul li a:hover{
 	color:#006caa;
@@ -81,168 +82,151 @@ header{
 /*Header Content End*/
 /*Header Section End*/
 
-/*Main Section-1 start*/
-main{
-	
-}
+/*Banner start*/
 
-.section1{
-	position:relative;
-} 
-.section1_background{
+.banner{
+	background-image:url("../img/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-position:top;
 }
-
-.section1_background img {
-	width:100%;
-	display:block;
-}
-
-.section1_content{
-	position:absolute;
-	top:40%;
-	margin-left:10%;
-	color:white;
-}
-
-.section1_content p:nth-child(1){
-	margin: 0px;
-	font-size:3vw;
-}
-.section1_content p:nth-child(2){
-	margin: 0px;
-	font-size:3vw;
-	font-weight: bold;
-	color:#0075ba;
-}
-.section1_content p:nth-child(3){
-	margin: 0px;
-	font-size:1.1vw;
-	line-height:2vw;
-}
-.section1_content p:nth-child(4){
-	background-color:white;
-	width:50%;
-	padding: 5px 0px 5px 15px;
-	border:1px solid white;
-	border-radius:5px;
-	text-transform:uppercase;
-	font-weight:bold;
-	font-size:2vw;
-}
-.section1_content p:nth-child(4) a{
-	text-decoration:none;
-	color:#5a5a5a;
-	transition: 0.5s;
-}
-.section1_content p:nth-child(4) a:hover{
-	color:#006caa;
-}
-
-/*Main Section-1 End*/
-
-/*Main Section-2 Start*/
-.section2{
-	position: relative;
-}
-.section2_background{}
-.section2_background img {
-	width:100%;
-	display:block;
-}
-.section2_content{
-	margin: 0 7% 0 10%;
-	position: absolute;
-	top: 15%;
-	font-size:1.1vw;
-	color:white;
-}
-.section2_content p{
-	padding:0px;
-	margin:0px;
-}
-.section2_col1{
-	width: 31%;
-	float: left;
-	box-sizing:border-box;
-	padding-right:2%;
-	text-align:justify;
-}
-.section2_col1_head,
-.section2_col2_head,
-.section2_col3_head{
-	overflow:hidden;
-}
-.section2_col1_head{
-	margin-bottom:2%;
-}
-.section2_col1_head img,
-.section2_col2_head img,
-.section2_col3_head img{
-	width:20%;
-	float:left;
-	margin-right:5%;
-}
-.section2_col1_head img{
-	width:25%;
-}
-.section2_col1_head div,
-.section2_col2_head div,
-.section2_col3_head div{
-	float:left;
-	margin-top:2%;
-	margin-bottom: 5%;
-}
-.section2_col1_head div p:nth-child(1),
-.section2_col2_head div p:nth-child(1),
-.section2_col3_head div p:nth-child(1){
-	font-size:2vw;
-}
-.section2_col1_head div p:nth-child(2),
-.section2_col2_head div p:nth-child(2),
-.section2_col3_head div p:nth-child(2){
-	font-size:2vw;
-	font-weight:bold;
-	color:#0075ba;
+.banner_content{
+	width:55%;
+	margin-top: 21%;
 	margin-bottom:10%;
 }
-.section2_col1 > p{
+.banner_content h1{
+	font-size:3vw;
+	font-weight:normal;
+	margin:0;
+	
+}
+.banner_content h2{
+	font-size:3vw;
+	font-weight:bold;
+	color:#0075ba;
+	margin:0;
+}
+.banner_content p{
+	margin:0;
+	font-size:1.1vw;
 	line-height:2vw;
 }
+.banner_content button{
+	width:52%;
+	margin-top:6%;
+	font-size:2vw;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#5a5a5a;
+    padding: 3% 5%;
+	border:0;
+	border-radius: 5px;
+	cursor:pointer;
+}
+.banner_content button:focus{
+	outline:0;
+}
+.banner_content button:hover{
+	color:#0075ba;
+}
+.banner_content button img{
+	display:block;
+	float:right;
+	padding-left:8%;
+	width:12%;
+}
 
-.section2_col2{
-	width: 37%;
-	float: left;
+/*Banner End*/
+
+/*Main Section-2 Start*/
+.service{
+	background-color: #121b2c;
+	padding-top:3%;
+	padding-bottom:2%;
+}
+/*First Content Start*/
+.service1{
+	width:31%;
 	box-sizing:border-box;
-	padding-left:3%;
-	padding-right:3%;
-	text-align:justify;
+	float:left;
+	padding-right:2%;
 }
-
-.section2_col2 > p{
-	line-height:2vw;}
-
-.section2_col3{
-	width: 32%;
-	float: left;
+.service1 .service_head{
+	margin-bottom:1.4%;
+}
+.service_head{
+	overflow:hidden;
+	position:relative;
+	padding-bottom:4%;
+}
+.head_image{
+	float:left;
+	width:22%;
 	box-sizing:border-box;
-	padding-left:2%;
-	text-align:justify;
 }
-
-.section2_col3_head div p{
-	display:inline-block;
-	margin-top:17%;
+.head_image img{
+	width:100%;
+	
 }
-.section2_col3 > p{
+.head_text{
+	float:left;
+	width:78%;
+	box-sizing:border-box;
+	position:absolute;
+	left:25%;
+	bottom:22%;
+}
+.head_text h2{
+	margin:0;
+	font-size:2vw;
+	font-weight: normal;
+}
+.head_text h3, .head_text h2 span{
+	margin:0;
+	font-size:2vw;
+	font-weight:bold;
+	color: #0075ba;
+	bottom:0;
+}
+.service_body{}
+.service_body p{
+	margin:0;
+	font-size:1.1vw;
 	line-height:2vw;
+	text-align:justify;
+	padding-bottom:16%;
 }
+/*First Content End*/
+
+/*Second Content Start*/
+.service2{
+	width:37%;
+	box-sizing:border-box;
+	float:left;
+	padding: 0 3%;
+	border-left: 1px solid #1a2430;
+	border-right: 1px solid #1a2430;
+}
+/*Second Content End*/
+
+/*Third Content Start*/
+.service3{
+	width:32%;
+	box-sizing:border-box;
+	float:left;
+	padding-left: 2%;
+}
+/*Third Content End*/
+
 /*Main Section-2 End*/
 
 
 /*Main Section-3 Start*/
 .section3{
 	background-color:black;
-	color:white;
 	overflow:hidden;
 	padding: 0 10%;
 	font-size:1vw;
@@ -340,7 +324,7 @@ main{
 	margin-bottom:5%;
 }
 .section3_col3_head a{
-	transition: 0.5s;
+	
 }
 .section3_col3_head a img{
 	width:100%;
@@ -353,7 +337,6 @@ main{
 footer{
 	position:relative;
 	font-size:1.1vw;
-	color:white;
 }
 .footer_background img{
 	display:block;
@@ -363,7 +346,7 @@ footer{
 	position:absolute;
 	top:15%;
 	width:80%;
-	margin-left:10%;
+	margin-left:12%;
 }
 .footer_content_menu{}
 .footer_content_menu ul{
@@ -383,7 +366,6 @@ footer{
 .footer_content_menu ul li a{
 	text-decoration:none;
 	color:white;
-	transition: 0.5s;
 }
 .footer_content_menu ul li a:hover{
 	color:#0075ba;
