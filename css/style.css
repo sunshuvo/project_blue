@@ -280,10 +280,10 @@ header{
 	border-radius:0.5em;
 	position:relative;
 }
-.section3_col2_head:after{
+.section3_col2_head:before{
 	content: "";
 	position:absolute;
-	top:100%;
+	top:99%;
 	left:60%;
 	border-top: 1.8em solid #0c1019;
 	border-right: 6em solid transparent;
